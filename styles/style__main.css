@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(227, 227, 227);
+}
+
+body {
+  background-color: darkslategray;
+}
+
+main {
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.avatar img {
+  width: 40%;
+  border-radius: 100px;
+}
+
+.socials a img {
+  width: 50%;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  margin: 10px 500px;
+}
+
+.socials a {
+  display: flex;
+  justify-content: center;
+}
+
+.about h2,
+pre {
+  font-family: consolas;
+}
+
+.about {
+  margin: 0 450px;
+}
